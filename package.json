@@ -1,0 +1,34 @@
+{
+  "name": "moli-cli",
+  "version": "0.0.12",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "moli": "./bin/moli.js"
+  },
+  "scripts": {
+    "moli": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yymoli/devtools-cmd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yymoli/devtools-cmd/issues"
+  },
+  "homepage": "https://github.com/yymoli/devtools-cmd#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "chalk": "^2.1.0",
+    "resolve": "^1.4.0",
+    "moli-dev": "^0.0.9",
+    "moli-init": "^0.0.4",
+    "moli-install": "^0.0.3",
+    "moli-build": "^0.0.2"
+  }
+}
